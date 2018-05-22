@@ -1,0 +1,37 @@
+2018-04-10:
+First day of attendance. Read through the student manual thoroughly, followed by Paper II, as to gather information. This was followed by drafting a rough plan for the project, which was approved by the advisors after slight alterations. 
+
+2018-04-12:
+Created general directories in UPPMAX, set up .git repositories, and downloaded necessary data from NCBI. This was followed by the initial draft of a working SOAPdenovo script per instruction from the student manual.
+
+2018-04-17:
+Ran SOAPdenovo, followed by errors whcih lead to error extensive erorr checking with guidance from the advisors. This was followed by a succesful run and in turn then followed by the creation of a FastQC script and a FASTQC control as to ensure the quality of the data. The data, while not perfect, proved to be of an acceptable level for the continuation of the project. 
+
+2018-04-19:
+Created scripts for Trinity and Quast, then performed a succesful run for both. This was followed by me downloading protein references from NCBIto use with MAKER2 and uploaded these to the uppmax directory, restructured the project folder and rearranged the git directory to better reflect the work im performing.
+
+2018-05-04
+The TRINITY output were checked using Quast with acceptable results. Once the quality had been confirmed as acceptable, this was followed by me working on a Maker2 pipeline as well as creating a script for Tophat, a Maker2 run was initiated right before leaving.
+
+2018-05-08
+The maker2 script had an erronous pathway, corrected this, and ran another maker2-run. Also started looking into how to run Htseq and samsort. 
+
+2018-05-09
+Maker2-run proved succesful, however an error has appeared in the second step. fathom genome.ann genome.dna -validate > snap_validate_output.txt returns 0-genes after performing the generation of the gff file, looking into this error but no viable solutions so far. Created samsort, tophat, htseq and dseq2 scripts for future operations. 
+
+2018-05-14
+The snap-error still remains, however will attempt a solution by changing the 
+$ fathom genome.ann genome.dna -categorize 1000
+$ fathom uni.ann uni.dna -export 1000 -plus 
+$ forge export.ann export.dna
+categorize and export commands to 60 instead of 1000, to better reflect the no. genes (100) being studied. Correction proved succesful, the second step now seems to generate correct data. 
+This was followed up by the creation of bowtie script which were then run succesfully, in turn followed by mapping through tophat, and finally sorting and indexing using samtools. When using HTSEQ, multiple errors were encountered. 
+After solving the issue of using a gff file for a program meant for gft files, an issue saying "need more than 1 value to unpack" was encountered, this was related to the gff file containing a FASTA section which were eliminated. After this issue had been solved, it was instead discovered that Tophat had produced an empty accept_hits.bam file, which were solved by running tophat one more time. This resulted in a correct accepted_hits.bam file, which in turn lead to a succesful run of HTSEQ.  
+
+2018-05-16
+HTSEQ ran succesfully, however encountered issues with DESEQ2. After consultation with advisors, decided to redo the analysis from the TOPHAT step, including all given Trimmed reads, alongside the trimmed reads generated through trimmomatic. 
+With the help of the advisors, an automatic loop were created for TOPHAT which succesfully ran. However, some of the trimmed reads did not succesfully generate a .bam file, for which i decided to run the TOPHAT script once more, if this error was due to memory allocation.
+While waiting for TOPHAT, the MAKER2 protein-results were succesfully analyzed using eggNOGmapper, and the results were stored locally to be interpreted once DESEQ2 results have been obtained.     
+
+2018-05-17
+Tophat were succesfully run, this was followed by continious succesful runs with smaller alterations using Samsort, HTSEQ, and finally DESEQ2 after some  modifications to the script. The output files were downloaded alongside the scripts which have been used during the course, and a  short discussion were had regarding the presentation of the data in the future. 
