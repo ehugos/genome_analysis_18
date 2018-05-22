@@ -35,3 +35,6 @@ While waiting for TOPHAT, the MAKER2 protein-results were succesfully analyzed u
 
 2018-05-17
 Tophat were succesfully run, this was followed by continious succesful runs with smaller alterations using Samsort, HTSEQ, and finally DESEQ2 after some  modifications to the script. The output files were downloaded alongside the scripts which have been used during the course, and a  short discussion were had regarding the presentation of the data in the future. 
+
+2018-05-22
+Succesfully installed DESeq2 package through bioconductor locally. Was initially met with error when trying to load library, but overcame this issue through reinstalling Rstudio. Succesfully ran a script generating a matrix showing the relations of the genes. 
