@@ -41,4 +41,4 @@ Succesfully installed DESeq2 package through bioconductor locally. Was initially
 Created two ma-plots, a counts-plot, a distance-heatmap, qc-dispersions plot and 5 different csv's for data. Also spent some time reading up upon the theory behind each method as to correctly interpret the output from these. 
 
 2018-05-23
-Optimized the ma-plot, optimized the heatmap, removed bad code, as well as added references and dialogue explaining some methods within the code. Attempted to generate a html and .pdf report. 
+Optimized the ma-plot, optimized the heatmap, removed bad code, as well as added references and dialogue explaining some methods within the code. Attempted to generate a html and .pdf report, .html report turned succesful, yielding nice data vizualisation, however the .pdf report ran into issues with the error "Failed to compile DESeq2Report.tex" for which i so far have found no probable solution. 
