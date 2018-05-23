@@ -38,3 +38,7 @@ Tophat were succesfully run, this was followed by continious succesful runs with
 
 2018-05-22
 Succesfully installed DESeq2 package through bioconductor locally. Was initially met with error when trying to load library, but overcame this issue through reinstalling Rstudio. Succesfully ran a script generating a matrix showing the relations of the genes. 
+Created two ma-plots, a counts-plot, a distance-heatmap, qc-dispersions plot and 5 different csv's for data. Also spent some time reading up upon the theory behind each method as to correctly interpret the output from these. 
+
+2018-05-23
+Optimized the ma-plot, optimized the heatmap, removed bad code, as well as added references and dialogue explaining some methods within the code. Attempted to generate a html and .pdf report. 
