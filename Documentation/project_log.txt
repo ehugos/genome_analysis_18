@@ -43,3 +43,6 @@ Created two ma-plots, a counts-plot, a distance-heatmap, qc-dispersions plot and
 2018-05-23
 Optimized the ma-plot, optimized the heatmap, removed bad code, as well as added references and dialogue explaining some methods within the code. Attempted to generate a html and .pdf report, .html report turned succesful, yielding nice data vizualisation, however the .pdf report ran into issues with the error "Failed to compile DESeq2Report.tex" for which i so far have found no probable solution.
 Managed to solve the issue through reinstalling multiple packages related to latex, which failed due to compability errors, .pdf file was succesfully generated after these changes. 
+
+2018-05-24
+Analyzed the DESEQ2-data combined with the output from eggNOGmapper. Managed through combining the two methods, to find one gene of interest, TBX2, which is involved in limb development in rodents. Put together a powerpoint showing the DESEQ2 results, the eggNOGmapper-results, as well as included a discussion regarding the results and their interpetation in said presentation. Uploaded final data to .git, including the powerpoint. 
