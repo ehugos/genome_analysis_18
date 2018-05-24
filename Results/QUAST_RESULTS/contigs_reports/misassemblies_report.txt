@@ -1,0 +1,16 @@
+All statistics are based on contigs of size >= 100 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     SOAPdenovo_2_results
+# misassemblies              5                   
+    # relocations            5                   
+    # translocations         0                   
+    # inversions             0                   
+# misassembled contigs       5                   
+Misassembled contigs length  21832               
+# local misassemblies        17                  
+# unaligned mis. contigs     0                   
+# mismatches                 1069                
+# indels                     98                  
+    # indels (<= 5 bp)       82                  
+    # indels (> 5 bp)        16                  
+Indels length                579                 

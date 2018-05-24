@@ -1,0 +1,5 @@
+Writing filtered delta file /home/sativus/Genome_Analysis_husw7546/genome_analysis_18/QUAST/contigs_reports/nucmer_output/SOAPdenovo_2_results.filter
+Reading delta file /home/sativus/Genome_Analysis_husw7546/genome_analysis_18/QUAST/contigs_reports/nucmer_output/SOAPdenovo_2_results.delta
+Writing plot files /home/sativus/Genome_Analysis_husw7546/genome_analysis_18/QUAST/contigs_reports/nucmer_output/SOAPdenovo_2_results.fplot, /home/sativus/Genome_Analysis_husw7546/genome_analysis_18/QUAST/contigs_reports/nucmer_output/SOAPdenovo_2_results.rplot
+Writing gnuplot script /home/sativus/Genome_Analysis_husw7546/genome_analysis_18/QUAST/contigs_reports/nucmer_output/SOAPdenovo_2_results.gp
+Rendering plot /home/sativus/Genome_Analysis_husw7546/genome_analysis_18/QUAST/contigs_reports/nucmer_output/SOAPdenovo_2_results.html
