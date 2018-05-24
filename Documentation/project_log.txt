@@ -34,7 +34,8 @@ With the help of the advisors, an automatic loop were created for TOPHAT which s
 While waiting for TOPHAT, the MAKER2 protein-results were succesfully analyzed using eggNOGmapper, and the results were stored locally to be interpreted once DESEQ2 results have been obtained.     
 
 2018-05-17
-Tophat were succesfully run, this was followed by continious succesful runs with smaller alterations using Samsort, HTSEQ, and finally DESEQ2 after some  modifications to the script. The output files were downloaded alongside the scripts which have been used during the course, and a  short discussion were had regarding the presentation of the data in the future. 
+Tophat were succesfully run, this was followed by continious succesful runs with smaller alterations using Samsort, HTSEQ, and finally DESEQ2 after some  modifications to the script. The output files were downloaded alongside the scripts which have been used during the course, and a short discussion were had regarding the presentation of the data in the future. 
+Data proved to be insufficient, reran the entire pathway from Trinity and onward using both the prepared trimmed reads, as well as the the ones i trimmed myself. QUAST was not run due to time constraint, as it was assumed it would be good enough due to previous runs being ok. This was followed by Bowtie, Tophat, Samsort, and finally HTSEQ being run, yielding the sought after results. 
 
 2018-05-22
 Succesfully installed DESeq2 package through bioconductor locally. Was initially met with error when trying to load library, but overcame this issue through reinstalling Rstudio. Succesfully ran a script generating a matrix showing the relations of the genes. 
