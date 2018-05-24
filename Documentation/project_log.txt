@@ -5,16 +5,16 @@ First day of attendance. Read through the student manual thoroughly, followed by
 Created general directories in UPPMAX, set up .git repositories, and downloaded necessary data from NCBI. This was followed by the initial draft of a working SOAPdenovo script per instruction from the student manual.
 
 2018-04-17:
-Ran SOAPdenovo, followed by errors whcih lead to error extensive erorr checking with guidance from the advisors. This was followed by a succesful run and in turn then followed by the creation of a FastQC script and a FASTQC control as to ensure the quality of the data. The data, while not perfect, proved to be of an acceptable level for the continuation of the project. 
+Ran SOAPdenovo, followed by errors whcih lead to error extensive erorr checking with guidance from the advisors. This was followed by a succesful run and in turn then followed by the creation of a FastQC script and a FASTQC control as to ensure the quality of the data. The data proved to have Low GC-content, questionable kmer-content as well as questionable per-seq distribution, but while not perfect, proved to be of an acceptable level for the continuation of the project. 
 
 2018-04-19:
 Created scripts for Trinity and Quast, then performed a succesful run for both. This was followed by me downloading protein references from NCBIto use with MAKER2 and uploaded these to the uppmax directory, restructured the project folder and rearranged the git directory to better reflect the work im performing.
 
 2018-05-04
-The TRINITY output were checked using Quast with acceptable results. Once the quality had been confirmed as acceptable, this was followed by me working on a Maker2 pipeline as well as creating a script for Tophat, a Maker2 run was initiated right before leaving.
+The TRINITY output were checked using Quast with acceptable results. A large majority of the contigs were considered to be "correct". Some contigs however, remained unaligned. Once the quality had been confirmed as acceptable, this was followed by me working on a Maker2 pipeline as well as creating a script for Tophat, a Maker2 run was initiated right before leaving.
 
 2018-05-08
-The maker2 script had an erronous pathway, corrected this, and ran another maker2-run. Also started looking into how to run Htseq and samsort. 
+The maker2 script had an erronous pathway, after extensitve error checking, this was correcected along with two other linkage problems, and ran another maker2-run were initiated. Also started looking into how to run Htseq and Samsort, as to minimize the workload due to time restraints. 
 
 2018-05-09
 Maker2-run proved succesful, however an error has appeared in the second step. fathom genome.ann genome.dna -validate > snap_validate_output.txt returns 0-genes after performing the generation of the gff file, looking into this error but no viable solutions so far. Created samsort, tophat, htseq and dseq2 scripts for future operations. 
@@ -47,3 +47,6 @@ Managed to solve the issue through reinstalling multiple packages related to lat
 
 2018-05-24
 Analyzed the DESEQ2-data combined with the output from eggNOGmapper. Managed through combining the two methods, to find one gene of interest, TBX2, which is involved in limb development in rodents. Put together a powerpoint showing the DESEQ2 results, the eggNOGmapper-results, as well as included a discussion regarding the results and their interpetation in said presentation. Uploaded final data to .git, including the powerpoint. 
+
+2018-05-04
+After quick discussion with advisor, made final changes to the presentation. Submitted the pptx to studentportalen, and started practicing the presentation  as to stay within the allocated time. 
