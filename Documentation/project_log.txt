@@ -48,5 +48,5 @@ Managed to solve the issue through reinstalling multiple packages related to lat
 2018-05-24
 Analyzed the DESEQ2-data combined with the output from eggNOGmapper. Managed through combining the two methods, to find one gene of interest, TBX2, which is involved in limb development in rodents. Put together a powerpoint showing the DESEQ2 results, the eggNOGmapper-results, as well as included a discussion regarding the results and their interpetation in said presentation. Uploaded final data to .git, including the powerpoint. 
 
-2018-05-04
+2018-05-24
 After quick discussion with advisor, made final changes to the presentation. Submitted the pptx to studentportalen, and started practicing the presentation  as to stay within the allocated time. 
