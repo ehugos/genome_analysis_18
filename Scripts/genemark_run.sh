@@ -1,5 +1,4 @@
-#!/bin/bash -l
-#SBATCH -A g2018003
+BATCH -A g2018003
 #SBATCH -p core
 #SBATCH -n 4
 #SBATCH -t 09:00:00
@@ -9,6 +8,6 @@
 
 # Load modules
 module load bioinfo-tools
-module load maker/3.01.1-beta
+module load genemark
 
-maker
+gmes_petap.pl -ES -fungus -cores 10 -sequence /home/data/my_assembly.fasta
